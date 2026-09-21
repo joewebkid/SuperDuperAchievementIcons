@@ -1,0 +1,12 @@
+{
+  "formatVersion": 1,
+  "games": [
+    {
+      "bundleId": "www.fishlabs.net.gof2hd",
+      "bundleVersion": "1.1.4",
+      "executableSha256": "74ece5bedf561eed4e71b8d0b875e201c47858a2649a59d65af57390a0554958",
+      "manifest": "games/www.fishlabs.net.gof2hd/1.1.4/manifest.json",
+      "iconCount": 92
+    }
+  ]
+}

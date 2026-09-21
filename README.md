@@ -1,7 +1,7 @@
-# GOF2 Game Center icon test archive
+# Super Duper Achievement Icons
 
-Private, temporary research archive for 92 Galaxy on Fire 2 HD iOS achievement icons.
+A versioned, game-neutral catalog of achievement icons for Super Duper. Add each game under `games/<bundle-id>/<bundle-version>/`; the root `index.json` lists available packs. The first pack covers 92 Game Center achievements in Galaxy on Fire 2 HD 1.1.4.
 
-The exact achievement identifiers come from `GameCenterHD.plist` in the user's GOF2 HD 1.1.4 IPA. Icon thumbnails are mirrored from the archived iOS achievement listing at https://trophieshunter.com/games/galaxy-on-fire-2-hd-ios and mapped by title. The icons are third-party game artwork; this repository grants no license to redistribute them. Do not publish or bundle these files in the emulator without a rights review.
+GitHub Pages serves the [catalog](https://joewebkid.github.io/SuperDuperAchievementIcons/) and direct image URLs. Each game manifest pins bundle ID, version, executable SHA-256, image hashes, byte lengths, and provenance. A matching ID is not proof of an observed unlock.
 
-`manifest.json` records the mapping and provenance. The icon images are research references, not an assertion that any Game Center unlock was observed on Android.
+Icon artwork belongs to its respective rights holders. Source images for this first pack were archived from the [GOF2 HD iOS achievements page](https://trophieshunter.com/games/galaxy-on-fire-2-hd-ios). The files are hosted separately from emulator code and original IPA contents.
