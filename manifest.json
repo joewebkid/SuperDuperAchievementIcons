@@ -1,0 +1,561 @@
+{
+  "formatVersion": 1,
+  "game": "Galaxy on Fire 2 HD",
+  "bundleId": "www.fishlabs.net.gof2hd",
+  "bundleVersion": "1.1.4",
+  "sourceListing": "https://trophieshunter.com/games/galaxy-on-fire-2-hd-ios",
+  "assets": [
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_veteran",
+      "title": "Veteran",
+      "file": "icons/a_veteran.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/8kwzsiv6aanmiojmha0h4mu6mkwx"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_survivor_bronze",
+      "title": "Survivor Bronze",
+      "file": "icons/a_survivor_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/83pezda4y201ui1zrmg8gz2swkvx"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_survivor_silver",
+      "title": "Survivor Silver",
+      "file": "icons/a_survivor_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/tzk3xjl3bafxbz6dftlkquvr74h9"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_survivor_gold",
+      "title": "Survivor Gold",
+      "file": "icons/a_survivor_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/2aqmuxwz3dx1lg1tz1m9l34ljodd"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_geologist_bronz",
+      "title": "Geologist Bronze",
+      "file": "icons/a_geologist_bronz.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/htcv24b73hoxvycgaga5x6adapvi"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_geologist_silver",
+      "title": "Geologist Silver",
+      "file": "icons/a_geologist_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/892lhtoh177zk34dj9jfwfpcg95d"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_geologist_gold",
+      "title": "Geologist Gold",
+      "file": "icons/a_geologist_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/v0k3x3cl6vasf3ci000s39bmsd8f"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_adv_geologist_bronze",
+      "title": "Adv. Geologist Bronze",
+      "file": "icons/a_adv_geologist_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/yuyu948vza48a80etjapc24dfraq"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_adv_geologist_silver",
+      "title": "Adv. Geologist Silver",
+      "file": "icons/a_adv_geologist_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/nxm1306cdyb2ghw1hdrxb1tve6ex"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_adv_geologist_gold",
+      "title": "Adv. Geologist Gold",
+      "file": "icons/a_adv_geologist_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/77gyqeogkumwgb7yzp0cvzrtvps4"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_killer_bronze",
+      "title": "Killer Bronze",
+      "file": "icons/a_killer_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/kbalvhcllxbel7rxhf234jr3n3us"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_killer_silver",
+      "title": "Killer Silver",
+      "file": "icons/a_killer_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/79a864g90a79834b6rn2xftfsh66"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_killer_gold",
+      "title": "Killer Gold",
+      "file": "icons/a_killer_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/5emefkq3z9xvj2vdrr1yj8i07d8a"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_carrier_bronze",
+      "title": "Carrier Bronze",
+      "file": "icons/a_carrier_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/1kzjqe5p0exx0brv7kpmcqckclkk"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_carrier_silver",
+      "title": "Carrier Silver",
+      "file": "icons/a_carrier_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/twdg38dmw2csi78nksjo3nv1ywvq"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_carrier_gold",
+      "title": "Carrier Gold",
+      "file": "icons/a_carrier_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/9b5577mm8ow97tkw4eqxtsmfzu26"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_miner_bronze",
+      "title": "Miner Bronze",
+      "file": "icons/a_miner_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/hx7fv0tf6sy3p4hu15d5x0cl4blx"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_miner_silver",
+      "title": "Miner Silver",
+      "file": "icons/a_miner_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/vw4tcvpzpq3ixzrkovdef01g88mf"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_miner_gold",
+      "title": "Miner Gold",
+      "file": "icons/a_miner_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/uqp5wa0vhlvcln06i9nmf45gj7in"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_adv_miner_bronze",
+      "title": "Adv. Miner Bronze",
+      "file": "icons/a_adv_miner_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/eufwa09xl6udh9m8m2nlfy3z54qd"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_adv_miner_silver",
+      "title": "Adv. Miner Silver",
+      "file": "icons/a_adv_miner_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/wvvpn10hss3b6vtae9m4iebzufaz"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_adv_miner_gold",
+      "title": "Adv. Miner Gold",
+      "file": "icons/a_adv_miner_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/mu994qz1h7oa12p15sowhmpw89md"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_personal_need_bronze",
+      "title": "Personal Need Bronze",
+      "file": "icons/a_personal_need_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/kgid71kxcp75i9dh22au5qgidbj1"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_personal_need_silver",
+      "title": "Personal Need Silver",
+      "file": "icons/a_personal_need_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/ji981nxhhdtsw8de9qmjkcy7gbd4"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_personal_need_gold",
+      "title": "Personal Need Gold",
+      "file": "icons/a_personal_need_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/o7xii1g3guw82cyogwmhpv365rtm"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_barkeeper_bronze",
+      "title": "Barkeeper Bronze",
+      "file": "icons/a_barkeeper_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/5aac8jt7bekj3d23ol43covl28un"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_barkeeper_silver",
+      "title": "Barkeeper Silver",
+      "file": "icons/a_barkeeper_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/f0xsmzf7laja1p4nj0rhlfw35w2p"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_barkeeper_gold",
+      "title": "Barkeeper Gold",
+      "file": "icons/a_barkeeper_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/m7jcbon8f2jxms4pbftt4m438gu7"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_garbage_man_bronze",
+      "title": "Garbage Man Bronze",
+      "file": "icons/a_garbage_man_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/8cujz3rt1elqrwecc90iypllemy0"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_garbage_man_silver",
+      "title": "Garbage Man Silver",
+      "file": "icons/a_garbage_man_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/e664wnje5m5or89o0csvze5l1b4h"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_garbage_man_gold",
+      "title": "Garbage Man Gold",
+      "file": "icons/a_garbage_man_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/qexfmzl76lpdwki09x5lp35diicw"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_space_tourist_bronze",
+      "title": "Space Tourist Bronze",
+      "file": "icons/a_space_tourist_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/57pzmn4vz7kun7a6wi5wm90klirg"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_space_tourist_silver",
+      "title": "Space Tourist Silver",
+      "file": "icons/a_space_tourist_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/yigs2svgg9i0tzis2m4k0jsyhgnu"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_space_tourist_gold",
+      "title": "Space Tourist Gold",
+      "file": "icons/a_space_tourist_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/koh9zkl854tzljo9oibkxu8n724c"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_explorer_bronze",
+      "title": "Explorer Bronze",
+      "file": "icons/a_explorer_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/c0n63l1pg5tgt3okhtbs1qef4ffu"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_explorer_silver",
+      "title": "Explorer Silver",
+      "file": "icons/a_explorer_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/ht1u0hyh745ccjtpq4sqiak1nsae"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_explorer_gold",
+      "title": "Explorer Gold",
+      "file": "icons/a_explorer_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/9tntw1nvo5jqqurnymua2a16m609"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_handyman_bronze",
+      "title": "Handyman Bronze",
+      "file": "icons/a_handyman_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/aszfa7b69ue88pj0dbojkb1z9je5"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_handyman_silver",
+      "title": "Handyman Silver",
+      "file": "icons/a_handyman_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/nt2222d3zikgc3ahpjr7jhqt209t"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_handyman_gold",
+      "title": "Handyman Gold",
+      "file": "icons/a_handyman_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/ne1084q1uyv8qrmyobdrrzj0nx4u"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_engineer_bronze",
+      "title": "Engineer Bronze",
+      "file": "icons/a_engineer_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/viz9jir09lw4ktsx55grxmt99vl7"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_engineer_silver",
+      "title": "Engineer Silver",
+      "file": "icons/a_engineer_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/iy4z2wwtobu8nw03ranuu8w15hjz"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_engineer_gold",
+      "title": "Engineer Gold",
+      "file": "icons/a_engineer_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/ok3npy6ncsl9xm52yvm6lzybs0sr"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_addict_bronze",
+      "title": "Addict Bronze",
+      "file": "icons/a_addict_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/ggjucb1swe2sa58ry91jwwiqiqv8"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_addict_silver",
+      "title": "Addict Silver",
+      "file": "icons/a_addict_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/h910bxypmzjb56b5nsa1hjirdv2z"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_addict_gold",
+      "title": "Addict Gold",
+      "file": "icons/a_addict_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/bg6yl19exr0f14dsc7cx7s79ed8g"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_workaholic_bronze",
+      "title": "Workaholic Bronze",
+      "file": "icons/a_workaholic_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/bujh4m7qzknk64jdwm9adld2ujhy"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_workaholic_silver",
+      "title": "Workaholic Silver",
+      "file": "icons/a_workaholic_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/0qzufl11u1ix6hlqmrbiicj2opyh"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_workaholic_gold",
+      "title": "Workaholic Gold",
+      "file": "icons/a_workaholic_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/pdbo9zfdnh4szhz7r5ov3u63novd"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_globetrotter_bronze",
+      "title": "Globetrotter Bronze",
+      "file": "icons/a_globetrotter_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/d4s04it2rphj7qondhsy82xwmjbb"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_globetrotter_silver",
+      "title": "Globetrotter Silver",
+      "file": "icons/a_globetrotter_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/m1pr7n3vzpbfh8kov0a2wc6q59mi"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_globetrotter_gold",
+      "title": "Globetrotter Gold",
+      "file": "icons/a_globetrotter_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/epggd77yc2cwsdnf1z6g0nfrnp1u"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_tour_operator_bronze",
+      "title": "Tour Operator Bronze",
+      "file": "icons/a_tour_operator_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/oi0vp08uxkska64seixkxf2f607e"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_tour_operator_silver",
+      "title": "Tour Operator Silver",
+      "file": "icons/a_tour_operator_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/buhsg8vpumjj4kmg0h75v49tz0id"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_tour_operator_gold",
+      "title": "Tour Operator Gold",
+      "file": "icons/a_tour_operator_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/jmiv9xgws0mzmdbhnfrhljkvdd1o"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_ninja_bronze",
+      "title": "Ninja Bronze",
+      "file": "icons/a_ninja_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/rlh9v8rssczxrcg5e8sy78cg5dc4"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_ninja_silver",
+      "title": "Ninja Silver",
+      "file": "icons/a_ninja_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/82vn0htmsbckyfa7lbd89vel303z"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_ninja_gold",
+      "title": "Ninja Gold",
+      "file": "icons/a_ninja_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/595p6ep3okf4hfx4rz1idphxnsg3"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_nuclear_armament_bronze",
+      "title": "Nuclear Armament Bronze",
+      "file": "icons/a_nuclear_armament_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/49yiu31xnwmu86jwq1l6tf13y3zd"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_nuclear_armament_silver",
+      "title": "Nuclear Armament Silver",
+      "file": "icons/a_nuclear_armament_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/rg9z7hx7ktedro887zh53kko6jif"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_nuclear_armament_gold",
+      "title": "Nuclear Armament Gold",
+      "file": "icons/a_nuclear_armament_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/tgnwulf6hz4jo0f91wizq7wloykx"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_alien_hunter_bronze",
+      "title": "Alien Hunter Bronze",
+      "file": "icons/a_alien_hunter_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/fwnp0o2yr87d4p7g6dns7uha18lc"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_alien_hunter_silver",
+      "title": "Alien Hunter Silver",
+      "file": "icons/a_alien_hunter_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/te71p5xgo4el8jcy0vc5stwicxjj"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_alien_hunter_gold",
+      "title": "Alien Hunter Gold",
+      "file": "icons/a_alien_hunter_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/av5tpjy51meldf4d7jjj8fai68gx"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_harum_scarum",
+      "title": "Harum-Scarum",
+      "file": "icons/a_harum_scarum.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/odh032usxgi7r18mqh3749xhoelj"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_weapon_fanatic_bronze",
+      "title": "Weapon Fanatic Bronze",
+      "file": "icons/a_weapon_fanatic_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/z18hgfafdgj2t919wjq7aamguhh2"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_weapon_fanatic_silver",
+      "title": "Weapon Fanatic Silver",
+      "file": "icons/a_weapon_fanatic_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/l5qmsge8tz3z6avg5gcx1yxpnl9g"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_weapon_fanatic_gold",
+      "title": "Weapon Fanatic Gold",
+      "file": "icons/a_weapon_fanatic_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/tsgbph7i1mplkusnnzdb1env0ck2"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_looter_bronze",
+      "title": "Looter Bronze",
+      "file": "icons/a_looter_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/pieyil91wxxy4rpgdy4m33ff8eov"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_looter_silver",
+      "title": "Looter Silver",
+      "file": "icons/a_looter_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/7u9q4cb6r4utoxqh46oxi8av6rgi"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_looter_gold",
+      "title": "Looter Gold",
+      "file": "icons/a_looter_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/zaiu2nmtfq1yusbqqvay85193fsl"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_moneybags_bronze",
+      "title": "Moneybags Bronze",
+      "file": "icons/a_moneybags_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/2zourj0ve8p61jnjgev74pyza93q"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_moneybags_silver",
+      "title": "Moneybags Silver",
+      "file": "icons/a_moneybags_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/kwlajhxidw4wlem6lmsg5yr8o65v"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_moneybags_gold",
+      "title": "Moneybags Gold",
+      "file": "icons/a_moneybags_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/t5t42z8undqreds06j52i3yh7fw1"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_chatterbox_bronze",
+      "title": "Chatterbox Bronze",
+      "file": "icons/a_chatterbox_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/7ha03o9q6v67cyhw338n6ggfhn9t"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_chatterbox_silver",
+      "title": "Chatterbox Silver",
+      "file": "icons/a_chatterbox_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/gntg5hkh3ojl5xz1c476sssrti1l"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_chatterbox_gold",
+      "title": "Chatterbox Gold",
+      "file": "icons/a_chatterbox_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/9twojptf6zavocsohas2xhxdcple"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_commander_bronze",
+      "title": "Commander Bronze",
+      "file": "icons/a_commander_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/gnfzuzh8kk48bbtz4tc4ut8te6kb"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_commander_silver",
+      "title": "Commander Silver",
+      "file": "icons/a_commander_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/xfm703mie2ovk61mdwfnnu1suivx"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_commander_gold",
+      "title": "Commander Gold",
+      "file": "icons/a_commander_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/lxfaue5rdsgpwa5qa1kwusqg8h5l"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_renegade",
+      "title": "Renegade",
+      "file": "icons/a_renegade.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/8evu3az2la6it03ot7q6aykeozdd"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_mason_bronze",
+      "title": "Mason Bronze",
+      "file": "icons/a_mason_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/1jkqks2j74zzrrfrt2p9gfldkagq"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_mason_silver",
+      "title": "Mason Silver",
+      "file": "icons/a_mason_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/tl48d90m5c2shrdhc31q31gjeo5v"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_mason_gold",
+      "title": "Mason Gold",
+      "file": "icons/a_mason_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/tck582cgsdo2437c9qe574l1ygza"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_void_terror",
+      "title": "Void Terror",
+      "file": "icons/a_void_terror.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/fhylzoej3bx9uhmh446fxwces2k0"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_space_saver_bronze",
+      "title": "Space Saver Bronze",
+      "file": "icons/a_space_saver_bronze.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/5zjwcyjln073ehhr0vhq9g3hztku"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_space_saver_silver",
+      "title": "Space Saver Silver",
+      "file": "icons/a_space_saver_silver.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/x6sj916e1mt6gf2rx4euw6yjgaq7"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_space_saver_gold",
+      "title": "Space Saver Gold",
+      "file": "icons/a_space_saver_gold.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/2epxsybeyrdb6n29mv8yfrqr9ody"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_naysayer",
+      "title": "Naysayer",
+      "file": "icons/a_naysayer.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/f6evir6jld2b8rmz6dwquook3jjq"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_daredevil1",
+      "title": "Daredevil",
+      "file": "icons/a_daredevil1.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/b93kdwprk4r4uqvrvnr87p9vpg1z"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_tracker1",
+      "title": "Tracker",
+      "file": "icons/a_tracker1.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/obommg33qetx5aryo05vkz605sbz"
+    },
+    {
+      "gameCenterId": "www.fishlabs.net.gof2hd.a_champion",
+      "title": "Champion",
+      "file": "icons/a_champion.webp",
+      "sourceUrl": "https://cdn.trophieshunter.com/y6j9yakkmleyyr2gu6mfyhbxy0tz"
+    }
+  ]
+}
