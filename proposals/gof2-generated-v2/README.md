@@ -1,0 +1,7 @@
+# GOF2 achievement icon redesign — draft
+
+All 92 new square PNG illustrations were generated from the corresponding archived GOF2 HD 1.1.4 achievement images. Each new file has the exact stem of its original `icons/<stem>.webp` and maps to the same Game Center ID in the published manifest. The original icons and published manifest remain unchanged. These are candidate art assets, not new achievements and not evidence that unlocking or server sync works.
+
+Visual direction: preserve each achievement's central silhouette and bronze/silver/gold distinction; redraw the old flat badge as a dimensional sci-fi medal with a dark blue field, restrained blue rim light and black square background. No unrelated lettering or symbols were added. All master PNGs are 1254 × 1254. Each individual icon was generated with its own original icon as a reference; related new icons were used to keep the tier sets coherent. The original `XXX` marking on Personal Need's pouch is intentionally retained.
+
+`preview-64.png` shows the entire set at icon size. `exports-256/` contains compact 256 × 256 PNGs for serving; run `export_256.ps1` again after changing a master. `manifest.json` maps all 92 Game Center IDs to those exports with SHA-256 and records the original image URLs as references. `validate_proposal.ps1` confirms all 92 stems exist, are square, and the original source hashes still match. This proposal is not indexed by the live catalog, so it does not replace icons in the app yet. The GOF2 gameplay mod is not involved.
