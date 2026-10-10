@@ -5,7 +5,7 @@ param(
 
 Add-Type -AssemblyName System.Drawing
 
-$files = @(Get-ChildItem -LiteralPath $PSScriptRoot -Filter 'a_*.png' -File | Sort-Object Name)
+$files = @(Get-ChildItem -LiteralPath (Join-Path $PSScriptRoot 'exports-jpeg-128') -Filter 'a_*.jpg' -File | Sort-Object Name)
 if ($files.Count -eq 0) { throw 'No generated icons found.' }
 
 $cellWidth = $IconSize + 28
@@ -34,7 +34,17 @@ try {
             $image.Dispose()
         }
     }
-    $preview.Save((Join-Path $PSScriptRoot 'preview-64.png'), [System.Drawing.Imaging.ImageFormat]::Png)
+    $encoder = [System.Drawing.Imaging.ImageCodecInfo]::GetImageEncoders() |
+        Where-Object { $_.MimeType -eq 'image/jpeg' }
+    $parameters = [System.Drawing.Imaging.EncoderParameters]::new(1)
+    try {
+        $parameters.Param[0] = [System.Drawing.Imaging.EncoderParameter]::new(
+            [System.Drawing.Imaging.Encoder]::Quality, [long]85
+        )
+        $preview.Save((Join-Path $PSScriptRoot 'preview-64.jpg'), $encoder, $parameters)
+    } finally {
+        $parameters.Dispose()
+    }
 } finally {
     $graphics.Dispose()
     $font.Dispose()

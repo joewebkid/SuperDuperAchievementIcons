@@ -5,9 +5,9 @@ $repositoryRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
 $sourceDirectory = Join-Path $repositoryRoot 'games\www.fishlabs.net.gof2hd\1.1.4'
 $sourceManifest = Get-Content -LiteralPath (Join-Path $sourceDirectory 'manifest.json') -Raw | ConvertFrom-Json
 $proposalManifest = Get-Content -LiteralPath (Join-Path $PSScriptRoot 'manifest.json') -Raw | ConvertFrom-Json
-$exportDirectory = Join-Path $PSScriptRoot 'exports-256'
-$expected = @($sourceManifest.icons | ForEach-Object { [IO.Path]::GetFileNameWithoutExtension($_.path) + '.png' })
-$exports = @(Get-ChildItem -LiteralPath $exportDirectory -Filter 'a_*.png' -File | Select-Object -ExpandProperty Name)
+$exportDirectory = Join-Path $PSScriptRoot 'exports-jpeg-128'
+$expected = @($sourceManifest.icons | ForEach-Object { [IO.Path]::GetFileNameWithoutExtension($_.path) + '.jpg' })
+$exports = @(Get-ChildItem -LiteralPath $exportDirectory -Filter 'a_*.jpg' -File | Select-Object -ExpandProperty Name)
 $masters = @(Get-ChildItem -LiteralPath $PSScriptRoot -Filter 'a_*.png' -File | Select-Object -ExpandProperty Name)
 $missing = @($expected | Where-Object { $_ -notin $exports })
 $unexpected = @($exports | Where-Object { $_ -notin $expected })
@@ -16,8 +16,9 @@ $hashMismatch = @()
 $sourceMismatch = @()
 
 if ($masters.Count -gt 0) {
-    $missing += @($expected | Where-Object { $_ -notin $masters })
-    $unexpected += @($masters | Where-Object { $_ -notin $expected })
+    $expectedMasters = @($sourceManifest.icons | ForEach-Object { [IO.Path]::GetFileNameWithoutExtension($_.path) + '.png' })
+    $missing += @($expectedMasters | Where-Object { $_ -notin $masters })
+    $unexpected += @($masters | Where-Object { $_ -notin $expectedMasters })
 }
 
 foreach ($entry in $sourceManifest.icons) {
@@ -36,7 +37,7 @@ if ($proposalManifest.icons.Count -ne $expected.Count) {
 
 foreach ($sourceEntry in $sourceManifest.icons) {
     $matching = @($proposalManifest.icons | Where-Object { $_.gameCenterId -eq $sourceEntry.gameCenterId })
-    $expectedPath = 'exports-256/' + [IO.Path]::GetFileNameWithoutExtension($sourceEntry.path) + '.png'
+    $expectedPath = 'exports-jpeg-128/' + [IO.Path]::GetFileNameWithoutExtension($sourceEntry.path) + '.jpg'
     if ($matching.Count -ne 1 -or $matching[0].title -ne $sourceEntry.title -or $matching[0].path -ne $expectedPath) {
         $hashMismatch += $sourceEntry.gameCenterId
     }
@@ -58,7 +59,7 @@ foreach ($entry in $proposalManifest.icons) {
 foreach ($name in $exports) {
     $image = [System.Drawing.Image]::FromFile((Join-Path $exportDirectory $name))
     try {
-        if ($image.Width -ne 256 -or $image.Height -ne 256) { $invalid += "export $name" }
+        if ($image.Width -ne 128 -or $image.Height -ne 128) { $invalid += "export $name" }
     } finally { $image.Dispose() }
 }
 
